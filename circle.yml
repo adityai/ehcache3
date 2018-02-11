@@ -1,7 +1,7 @@
 
 dependencies:
   pre: 
-   - sudo apt-get install gradle
+   - gradle -v
    
   post:
    - ./gradlew
