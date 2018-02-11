@@ -4,5 +4,5 @@ dependencies:
    - gradle -v
    
   post:
-   - ./gradlew
-      
+   - ./gradlew build test jar
+   - cp *.jar $CIRCLE_ARTIFACT
